@@ -1,0 +1,4 @@
+leia x
+leia y
+z = x + y
+escreva z
