@@ -1,0 +1,4 @@
+Ler x
+Ler y
+Resolver x+y
+Escrever resolucao 
