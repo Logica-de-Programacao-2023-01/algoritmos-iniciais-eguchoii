@@ -1,0 +1,71 @@
+1. Faça um algoritmo que leia o nome, a idade e o peso de uma pessoa e imprima esses
+valores na tela.
+
+func main() {
+	var name string
+	fmt.Print("Qual é o seu nome?")
+	fmt.Scan(&name)
+	fmt.Println("Olá", name)
+	var idade int
+	fmt.Println("Qual é sua idade?")
+	fmt.Scan(&idade)
+	var peso string
+	fmt.Print("Qual o seu peso?")
+	fmt.Scan(&peso)
+  }
+  
+ _______________________________________________________
+  
+  2.
+  
+func main() {
+  var altura float64
+	fmt.Println("Qual a altura da caixa?")
+	fmt.Scan(&altura)
+	var base float64
+	fmt.Println("Qual a base da caixa?")
+	fmt.Scan(&base)
+	var area float64
+	area = altura * base
+	fmt.Println("A sua area é", area)
+  }
+  
+  _______________________________________________________
+  
+ 3. 
+ 
+func main() {
+  var altura float64
+	fmt.Println("Qual a altura da caixa?")
+	fmt.Scan(&altura)
+	var base float64
+	fmt.Println("Qual a base da caixa?")
+	fmt.Scan(&base)
+	var profundidade float64
+	fmt.Println("Qual a profundidade")
+	fmt.Scan(&profundidade)
+	var area float64
+	area = altura * base * profundidade
+	fmt.Println("A sua area é", area)
+  
+  }
+  
+  _______________________________________________________
+  4.
+  
+func main() {
+	var numero1 float64
+	fmt.Print("Qual o primeiro número?")
+	fmt.Scan(&numero1)
+	var numero2 float64
+	fmt.Print("Qual é o segundo número?")
+	fmt.Scan(&numero2)
+	var numero3 float64
+	fmt.Print("Qual seu terceiro número?")
+	fmt.Scan(&numero3)
+	var numero4 float64
+	fmt.Print("Qual seu quarto número?")
+	fmt.Scan(&numero4)
+	var media float64
+	media = numero1 + numero2 + numero3 + numero4/4
+	fmt.Println("Sua média é", media)
