@@ -69,3 +69,22 @@ func main() {
 	var media float64
 	media = numero1 + numero2 + numero3 + numero4/4
 	fmt.Println("Sua média é", media)
+}
+
+________________________________________________
+5.
+func main() {
+	var real float64
+	fmt.Println("Quantos reais quer converter para dólar?")
+	fmt.Scan(&real)
+	var dolar float64
+	fmt.Println("Quantos dólares quer converter para real?")
+	fmt.Scan(&dolar)
+	var converterRd float64
+	converterRd = (real * 0.19)
+	fmt.Println("real pra dolar", converterRd)
+	var converterDr float64
+	converterDr = (dolar * 5.26)
+	fmt.Println("Dolar para real:", converterDr)
+
+}
